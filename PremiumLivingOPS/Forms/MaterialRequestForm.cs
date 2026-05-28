@@ -22,7 +22,6 @@ public partial class MaterialRequestForm : Form
             using var r    = cmd.ExecuteReader();
             cboMaterial.Items.Clear();
             while (r.Read()) cboMaterial.Items.Add(new ComboItem(r.GetString(0), r.GetString(1)));
-            cboMaterial.DisplayMember = "Name"; cboMaterial.ValueMember = "Id";
         }
         catch { }
     }
