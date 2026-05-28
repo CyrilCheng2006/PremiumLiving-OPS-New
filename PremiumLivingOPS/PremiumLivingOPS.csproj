@@ -8,7 +8,6 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <AssemblyName>PremiumLivingOPS</AssemblyName>
     <RootNamespace>PremiumLivingOPS</RootNamespace>
-    <ApplicationIcon>Resources\app.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
