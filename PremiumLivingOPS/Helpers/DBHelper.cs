@@ -6,7 +6,7 @@ public static class DBHelper
 {
     private const string ConnectionString =
         "Server=127.0.0.1;Port=3306;Database=PremiumLivingFurniture;" +
-        "Uid=root;Pwd=root;CharSet=utf8mb4;";
+        "Uid=root;Pwd=root;CharSet=utf8mb4;SslMode=none;";
 
     public static MySqlConnection GetConnection()
     {
