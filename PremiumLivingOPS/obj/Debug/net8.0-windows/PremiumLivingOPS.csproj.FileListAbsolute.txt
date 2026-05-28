@@ -1,0 +1,6 @@
+C:\Users\hycyr\source\repos\CyrilCheng2006\PremiumLiving-OPS-New\PremiumLivingOPS\obj\Debug\net8.0-windows\PremiumLivingOPS.csproj.AssemblyReference.cache
+C:\Users\hycyr\source\repos\CyrilCheng2006\PremiumLiving-OPS-New\PremiumLivingOPS\obj\Debug\net8.0-windows\PremiumLivingOPS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hycyr\source\repos\CyrilCheng2006\PremiumLiving-OPS-New\PremiumLivingOPS\obj\Debug\net8.0-windows\PremiumLivingOPS.AssemblyInfoInputs.cache
+C:\Users\hycyr\source\repos\CyrilCheng2006\PremiumLiving-OPS-New\PremiumLivingOPS\obj\Debug\net8.0-windows\PremiumLivingOPS.AssemblyInfo.cs
+C:\Users\hycyr\source\repos\CyrilCheng2006\PremiumLiving-OPS-New\PremiumLivingOPS\obj\Debug\net8.0-windows\PremiumLivingOPS.csproj.CoreCompileInputs.cache
+C:\Users\hycyr\source\repos\CyrilCheng2006\PremiumLiving-OPS-New\PremiumLivingOPS\obj\Debug\net8.0-windows\PremiumLivingOPS.sourcelink.json

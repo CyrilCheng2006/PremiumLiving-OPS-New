@@ -1,5 +1,5 @@
 namespace PremiumLivingOPS.Forms;
-
+using PremiumLivingOPS.Helpers;
 partial class ProductEditDialog
 {
     private System.ComponentModel.IContainer components = null;

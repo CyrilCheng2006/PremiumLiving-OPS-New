@@ -54,16 +54,14 @@ public partial class QuotationEditDialog : Form
             cmd.Parameters.AddWithValue("@id", _quotationId);
             using var r = cmd.ExecuteReader();
             if (!r.Read()) return;
-            // populate header
             foreach (ComboItem ci in cboCustomer.Items)
                 if (ci.Id == r.GetString("CustomerID")) { cboCustomer.SelectedItem = ci; break; }
             dtpValidUntil.Value = r.GetDateTime("ValidUntil");
             txtComments.Text    = r["OtherComments"]?.ToString() ?? "";
             r.Close();
-            // load lines
-            string lineSql = "SELECT ql.ProductID, p.ProductName, ql.Quantity, ql.UnitPrice
-                              FROM QuotationLine ql JOIN Product p ON ql.ProductID=p.ProductID
-                              WHERE ql.QuotationID = @id;";
+            string lineSql = "SELECT ql.ProductID, p.ProductName, ql.Quantity, ql.UnitPrice " +
+                             "FROM QuotationLine ql JOIN Product p ON ql.ProductID=p.ProductID " +
+                             "WHERE ql.QuotationID = @id;";
             using var cmd2 = new MySqlCommand(lineSql, conn);
             cmd2.Parameters.AddWithValue("@id", _quotationId);
             using var r2 = cmd2.ExecuteReader();
@@ -133,5 +131,3 @@ public partial class QuotationEditDialog : Form
         catch (Exception ex) { MessageBox.Show(ex.Message); }
     }
 }
-
-internal record ComboItem(string Id, string Name) { public override string ToString() => Name; }

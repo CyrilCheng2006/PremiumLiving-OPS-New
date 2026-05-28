@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="Forms\AccountsPayForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\AccountsRecvForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\AuditLogForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\ComplaintListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\ComplaintNewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\CustomerEditDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\CustomerListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\DashboardForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\DeliveryNoteForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FinReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\InvoiceEditDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\InvoiceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\MaterialRequestForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\NewOrderForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\OrderListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\ProductEditDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\ProductInfoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\PurchaseOrderEditDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\PurchaseOrderForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\QuotationEditDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\QuotationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\ReplySlipForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\ReturnEditDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\ReturnMgmtForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\ScheduleDeliveryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\StockAlertForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\StockLevelForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\StockReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\SupplierEditDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\SupplierListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\SysConfigForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\TrackShipmentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\TransferFormPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\UserEditDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\UserMgmtForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

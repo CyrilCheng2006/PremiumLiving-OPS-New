@@ -25,7 +25,6 @@ public partial class ComplaintNewForm : Form
             using var r    = cmd.ExecuteReader();
             cboCustomer.Items.Clear();
             while (r.Read()) cboCustomer.Items.Add(new ComboItem(r.GetString(0), r.GetString(1)));
-            cboCustomer.DisplayMember = "Name"; cboCustomer.ValueMember = "Id";
         }
         catch { }
     }

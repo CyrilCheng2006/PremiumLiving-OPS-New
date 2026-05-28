@@ -1,5 +1,5 @@
 namespace PremiumLivingOPS.Forms;
-
+using PremiumLivingOPS.Helpers;
 partial class FinReportForm
 {
     private System.ComponentModel.IContainer components = null;
@@ -20,17 +20,17 @@ partial class FinReportForm
         pnlCards = new Panel { Location = new Point(0, 64), Size = new Size(900, 90), BackColor = UITheme.SurfaceGray };
         // Revenue card
         var cRev = new Panel { Location = new Point(0, 0), Size = new Size(280, 80), BackColor = UITheme.SurfaceWhite };
-        lblRevLbl  = new Label { Text = "Monthly Revenue",  Location = new Point(10, 8),  AutoSize = true, ForeColor = UITheme.TextMid };
+        lblRevLbl  = new Label { Text = "Monthly Revenue",  Location = new Point(10, 8),  AutoSize = true, ForeColor = UITheme.TextMuted };
         lblRevenue = new Label { Text = "HK$0.00", Location = new Point(10, 32), AutoSize = true, Font = UITheme.FontTitle, ForeColor = UITheme.Success };
         cRev.Controls.AddRange(new Control[] { lblRevLbl, lblRevenue });
         // Outstanding card
         var cOut = new Panel { Location = new Point(300, 0), Size = new Size(280, 80), BackColor = UITheme.SurfaceWhite };
-        lblOutLbl      = new Label { Text = "Outstanding AR",   Location = new Point(10, 8),  AutoSize = true, ForeColor = UITheme.TextMid };
+        lblOutLbl      = new Label { Text = "Outstanding AR",   Location = new Point(10, 8),  AutoSize = true, ForeColor = UITheme.TextMuted };
         lblOutstanding = new Label { Text = "HK$0.00", Location = new Point(10, 32), AutoSize = true, Font = UITheme.FontTitle, ForeColor = UITheme.Warning };
         cOut.Controls.AddRange(new Control[] { lblOutLbl, lblOutstanding });
         // Expenses card
         var cExp = new Panel { Location = new Point(600, 0), Size = new Size(280, 80), BackColor = UITheme.SurfaceWhite };
-        lblExpLbl  = new Label { Text = "Monthly Expenses", Location = new Point(10, 8),  AutoSize = true, ForeColor = UITheme.TextMid };
+        lblExpLbl  = new Label { Text = "Monthly Expenses", Location = new Point(10, 8),  AutoSize = true, ForeColor = UITheme.TextMuted };
         lblExpenses = new Label { Text = "HK$0.00", Location = new Point(10, 32), AutoSize = true, Font = UITheme.FontTitle, ForeColor = UITheme.Danger };
         cExp.Controls.AddRange(new Control[] { lblExpLbl, lblExpenses });
         pnlCards.Controls.AddRange(new Control[] { cRev, cOut, cExp });

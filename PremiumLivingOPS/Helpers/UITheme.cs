@@ -1,5 +1,6 @@
 namespace PremiumLivingOPS.Helpers;
 
+
 /// <summary>Centralised colour + font tokens mirroring the HTML prototype.</summary>
 public static class UITheme
 {

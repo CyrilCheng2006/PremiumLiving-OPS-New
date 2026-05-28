@@ -17,7 +17,6 @@ public partial class PurchaseOrderEditDialog : Form
             using var r    = cmd.ExecuteReader();
             cboSupplier.Items.Clear();
             while (r.Read()) cboSupplier.Items.Add(new ComboItem(r.GetString(0), r.GetString(1)));
-            cboSupplier.DisplayMember = "Name"; cboSupplier.ValueMember = "Id";
         } catch { }
     }
 
