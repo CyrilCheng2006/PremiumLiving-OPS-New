@@ -4,10 +4,9 @@ namespace PremiumLivingOPS.Helpers;
 
 public static class DBHelper
 {
-    // ── Update server/user/password to match your MySQL instance ──
     private const string ConnectionString =
-        "Server=localhost;Port=3306;Database=PremiumLivingFurniture;" +
-        "Uid=root;Pwd=yourpassword;CharSet=utf8mb4;";
+        "Server=127.0.0.1;Port=3306;Database=PremiumLivingFurniture;" +
+        "Uid=root;Pwd=root;CharSet=utf8mb4;";
 
     public static MySqlConnection GetConnection()
     {
