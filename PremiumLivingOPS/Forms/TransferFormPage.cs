@@ -22,7 +22,6 @@ public partial class TransferFormPage : Form
             using var r    = cmd.ExecuteReader();
             cboProduct.Items.Clear();
             while (r.Read()) cboProduct.Items.Add(new ComboItem(r.GetString(0), r.GetString(1)));
-            cboProduct.DisplayMember = "Name"; cboProduct.ValueMember = "Id";
         }
         catch { }
     }

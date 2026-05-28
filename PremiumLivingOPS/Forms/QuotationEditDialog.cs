@@ -25,7 +25,6 @@ public partial class QuotationEditDialog : Form
             using var r    = cmd.ExecuteReader();
             cboCustomer.Items.Clear();
             while (r.Read()) cboCustomer.Items.Add(new ComboItem(r.GetString(0), r.GetString(1)));
-            cboCustomer.DisplayMember = "Name"; cboCustomer.ValueMember = "Id";
         }
         catch { }
     }
@@ -39,7 +38,6 @@ public partial class QuotationEditDialog : Form
             using var r    = cmd.ExecuteReader();
             cboProduct.Items.Clear();
             while (r.Read()) cboProduct.Items.Add(new ComboItem(r.GetString(0), $"{r.GetString(1)} (HK${r.GetDecimal(2):N2})"));
-            cboProduct.DisplayMember = "Name"; cboProduct.ValueMember = "Id";
         }
         catch { }
     }

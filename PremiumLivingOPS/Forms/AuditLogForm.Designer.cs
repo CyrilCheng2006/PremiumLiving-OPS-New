@@ -1,3 +1,5 @@
+using PremiumLivingOPS.Helpers;
+
 namespace PremiumLivingOPS.Forms;
 using PremiumLivingOPS.Helpers;
 partial class AuditLogForm
